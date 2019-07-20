@@ -1,0 +1,155 @@
+.home-heading {
+  font-family: Roboto;
+  font-weight: lighter;
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+  opacity: 0.5;
+}
+
+.home-subheading {
+  font-family: Roboto;
+  font-weight: lighter;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+  opacity: 0.5;
+}
+
+.color-picker-outer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 30%;
+  min-width: 350px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.color-picker-outer-container .color-picker-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 172px;
+  height: 350px;
+}
+
+.color-picker-outer-container .color-picker-selector {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin: 0 auto;
+  cursor: pointer;
+  border: 3px solid white;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.color-picker-outer-container .color-picker-selector:hover {
+  border: none;
+}
+
+.color-picker-outer-container .color-picker-popup {
+  margin-top: 10px;
+}
+
+.orientation-container {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.orientation-container i {
+  border: none;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  display: table;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+
+.orientation-container i:before {
+  text-align: center;
+  display: table-cell;
+  vertical-align: center;
+  padding: 15px;
+  height: 40px;
+  width: 40px;
+}
+
+.orientation-container i:hover {
+  background-color: white;
+  color: black;
+}
+
+.home-code-snippet-container {
+  width: 30%;
+  height: 100px;
+  margin: 0 auto;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 17px 20px 17px 20px;
+  overflow-y: auto;
+}
+
+.home-code-snippet-container .home-code-snippet {
+  font-size: 1rem;
+}
+
+.home-footer-container {
+  background-color: white;
+  opacity: 0.5;
+}
+
+.home-footer-container .home-footer {
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 1125px) {
+  .home-code-snippet-container {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .home-code-snippet-container {
+    width: 90%;
+  }
+  .orientation-container {
+    width: 90%;
+  }
+  .orientation-container i {
+    width: 10px;
+    height: 10px;
+  }
+  .orientation-container i:before {
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+  }
+}
+/*# sourceMappingURL=Home.css.map */

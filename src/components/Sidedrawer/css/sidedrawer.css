@@ -1,0 +1,55 @@
+.sidedrawer {
+  height: 100%;
+  background: white;
+  -webkit-box-shadow: 3px 0px 7px rgba(0, 0, 0, 0.5);
+          box-shadow: 3px 0px 7px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 70%;
+  max-width: 400px;
+  z-index: 200;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  transition: -webkit-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+}
+
+.sidedrawer ul {
+  height: 100%;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sidedrawer li {
+  margin: 0.5rem 0;
+}
+
+.sidedrawer a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: black;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.sidedrawer a:hover, .sidedrawer a:active {
+  color: dodgerblue;
+}
+
+.sidedrawer.open {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+/*# sourceMappingURL=sidedrawer.css.map */

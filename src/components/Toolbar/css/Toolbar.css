@@ -1,0 +1,75 @@
+.toolbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: black;
+  height: 70px;
+  z-index: 10000;
+}
+
+.toolbar .toolbar_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  padding: 0 1rem;
+}
+
+.toolbar .toolbar_logo {
+  margin-left: 0.5rem;
+}
+
+.toolbar .toolbar_logo a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: 'Dosis', sans-serif;
+  color: #fff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.toolbar .toolbar_logo a:hover {
+  color: #FF0066;
+}
+
+.toolbar .spacer {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.toolbar .toolbar_nav_items a {
+  color: white;
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.toolbar .toolbar_nav_items ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.toolbar .toolbar_nav_items li {
+  padding: 0 0.5rem;
+}
+
+.toolbar .toolbar_nav_items a:hover,
+.toolbar .toolbar_nav_items a:active {
+  color: dodgerblue;
+}
+
+@media (max-width: 840px) {
+  .toolbar_nav_items {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Toolbar.css.map */
