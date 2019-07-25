@@ -17,7 +17,7 @@ const toolbar = props => (
 						<a href='https://github.com/SaurabhCR7'>Github</a>
 					</li>
 					<li>
-						<a href='https://saurabhcr7.github.io/'>Contact</a>
+						<a href='https://saurabh-chauhan.netlify.com'>Contact</a>
 					</li>
 				</ul>
 			</div>
