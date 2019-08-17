@@ -12,7 +12,7 @@ const sidedrawer = props => {
 					<a href='https://github.com/SaurabhCR7'>Github</a>
 				</li>
 				<li>
-					<a href='https://saurabh-chauhan.netlify.com'>Contact</a>
+					<a href='https://saurabh-chauhan.tk/'>Contact</a>
 				</li>
 			</ul>
 		</nav>
